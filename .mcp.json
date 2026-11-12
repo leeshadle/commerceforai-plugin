@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "commerceforai": {
+      "type": "http",
+      "url": "https://api.commerceforai.com/mcp?toolsets=core,catalog,shipping"
+    }
+  }
+}

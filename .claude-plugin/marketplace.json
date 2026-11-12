@@ -1,0 +1,16 @@
+{
+  "name": "commerceforai",
+  "owner": {
+    "name": "CommerceForAI",
+    "url": "https://commerceforai.com"
+  },
+  "description": "CommerceForAI for Claude Code: add a store to an app, or run one.",
+  "plugins": [
+    {
+      "name": "commerceforai",
+      "description": "Add a store to an app, or run one: products, stock, Stripe checkout, orders, shipping, returns, print-on-demand and sales tax on the merchant's own Stripe account.",
+      "category": "development",
+      "source": "./"
+    }
+  ]
+}

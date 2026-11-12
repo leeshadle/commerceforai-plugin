@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "commerceforai": {
+      "type": "streamable-http",
+      "url": "https://api.commerceforai.com/mcp?toolsets=core,catalog,shipping"
+    }
+  }
+}
