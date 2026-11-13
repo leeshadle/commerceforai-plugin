@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "commerceforai",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Add a store to an app, or run one: products, stock, Stripe checkout, orders, shipping, returns, print-on-demand and sales tax on the merchant's own Stripe account.",
   "author": {
     "name": "CommerceForAI",
@@ -27,7 +27,8 @@
         "developerName": "CommerceForAI",
         "category": "Developer Tools",
         "websiteURL": "https://commerceforai.com",
-        "defaultPrompt": "Add a store to this app with CommerceForAI."
+        "defaultPrompt": "Add a store to this app with CommerceForAI.",
+        "privacyPolicyURL": "https://commerceforai.com/privacy"
       }
     }
   }
