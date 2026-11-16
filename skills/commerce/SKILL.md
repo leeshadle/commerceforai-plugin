@@ -41,6 +41,8 @@ Every store with public pages has a keyless endpoint:
 
 Claiming the test store (the `claim_url` from init), connecting Stripe, and going live. Hand the owner the link from `commerce.store.goLiveLink()`.
 
+Over a limit (refund, label, gift card), the owner is asked automatically: the error has `code: "approval_required"`. Don't retry; check `get_approval` / `commerce.approvals.get(id)` for the outcome.
+
 ## In this plugin
 
 - The `commerceforai` MCP server is the hosted one (`https://api.commerceforai.com/mcp`). It manages an existing store and needs the store owner to sign in (run `/mcp`), or a store API key as the bearer token. You don't need it to build a store into code: use the CLI and SDK in section 1.
