@@ -1,7 +1,7 @@
 {
   "name": "commerceforai",
   "displayName": "CommerceForAI",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Add a store to an app, or run one: products, stock, Stripe checkout, orders, shipping, returns, print-on-demand and sales tax on the merchant's own Stripe account.",
   "author": {
     "name": "CommerceForAI",

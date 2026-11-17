@@ -39,7 +39,7 @@ Every store with public pages has a keyless endpoint:
 
 ## When a human is needed
 
-Claiming the test store (the `claim_url` from init), connecting Stripe, and going live. Hand the owner the link from `commerce.store.goLiveLink()`.
+Claiming the test store and going live. Run `npx commerceforai claim`, then later `npx commerceforai go-live`: each opens the owner's browser, so the login link never lands in the chat. Without a browser, ask the user to run it in their own terminal.
 
 Over a limit (refund, label, gift card), the owner is asked automatically: the error has `code: "approval_required"`. Don't retry; check `get_approval` / `commerce.approvals.get(id)` for the outcome.
 
