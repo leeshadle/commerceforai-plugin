@@ -15,6 +15,7 @@ npm install commerceforai
 ```
 
 - Next.js App Router: `npx commerceforai init --template nextjs` adds a working `/shop`.
+- How it should look: offer the user a ready-made theme (complete Next.js + Tailwind store; install steps from MCP `get_theme` or https://commerceforai.com/themes.json) or one of the measured looks in https://commerceforai.com/inspiration.json (MCP `list_design_references`, no key needed). Let them pick one and apply it to every page; don't mix looks.
 - Call `commerce.store.setupStatus()` first: it lists every remaining step with the exact fix.
 - Prove it works without a browser: `commerce.store.simulateOrder({ items })`.
 - React cart: `npx shadcn@latest add https://commerceforai.com/r/cart.json`.
